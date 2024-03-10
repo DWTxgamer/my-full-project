@@ -1,0 +1,5 @@
+formating guide     [!]
+if statement        [x]
+functions           []
+file writing        []
+

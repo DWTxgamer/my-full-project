@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/e7f242ac55.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    body{
+        background-color: #000;
+    }
+    .container{
+        width: 400px;
+        height: 170px;
+        border-radius: 8px;
+        background-color: #183153;
+        color: white;
+        padding: 20px;
+        position: absolute;
+        top: 30%;
+        left: 35%;
+    }
+    .container i{
+        font-size: 20px;
+    }
+    .container a{
+        text-decoration: none;
+        color: #188099;
+        font-family: sans-serif;
+        letter-spacing: 2px;
+        margin-left: 10px;
+    }
+    .container a:hover{
+        animation: upcolor 1.5s 0.2s 1;
+    }
+    @keyframes upcolor {
+        0%{
+            color: #188099;
+        }
+        10%{
+            color: #fff;
+        }
+        100%{
+            color: #fff;
+        }
+    }
+</style>
+<body>
+    <div class="container">
+        <label for="facebook"><i class="fa-brands fa-facebook"></i></label>
+        <a href="https://www.facebook.com/" class="facebook" id="facebook">Facebook</a><br><br>
+        <label for="twitter"><i class="fa-brands fa-x-twitter"></i></label>
+        <a href="https://twitter.com/i/flow/login" class="tweeter" id="twitter">Twitter</a><br><br>
+        <label for="instagram"><i class="fa-brands fa-instagram"></i></label>
+        <a href="https://www.instagram.com/dwtxgamer/" class="instagram" id="instagram">Instagram</a><br><br>
+        <label for="youtube"><i class="fa-brands fa-youtube"></i></label>
+        <a href="https://www.youtube.com/" class="youtube" id="youtube">Youtube</a><br><br>
+        <label for="google"><i class="fa-brands fa-google"></i></label>
+        <a href="https://www.google.com/" class="google" id="google">Google</a><br><br>
+    </div>
+</body>
+</html>
