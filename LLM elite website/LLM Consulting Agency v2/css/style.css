@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 1px;
+    color: black;
+}
+body{
+    background-color: #f2f2f2;
+}
+
+.nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 18%;
+    padding: 0.1%;
+    background-color: white;
+}
+.nav-bar .top-section{
+    width: 30%;
+    padding: 10px;
+}
+.nav-bar .top-section .SearchButton{
+    width: 18px;
+    height: 18px;
+    background-color: #0089e4;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    left: 37%;
+    top: 6.5%;
+    cursor: pointer;
+}
+.SearchButton i{
+    margin-top: 1px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.top-section .PhoneUseNav{
+    position: absolute;
+    left: 8%;
+    top: 4.6%;
+    scale: 1;
+    color: #0089e4;
+}
+.top-section .EmailUseNav{
+    position: absolute;
+    left: 17.5%;
+    top: 3%;
+    scale: 1;
+    color: #0089e4;
+}
+.email{
+    position: absolute;
+    top: -18%;
+    left: 150%;
+    font-size: 15px;
+    color: #0089e4;
+}
+.phone{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    font-size: 15px;
+    color: #0089e4;
+}
+
+.nav-bar .main-section{
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    height: auto;
+}
+.main-section h3{
+    position: absolute;
+    left: 8%;
+    top: -1700%;
+    font-size: 30px;
+    color: #0089e4;
+}
+.main-section a{
+    font-family: sans-serif;
+    font-size: 19px;
+    padding-left: 35px;
+    letter-spacing: 1px;
+}
+.main-section a:hover{
+    color: #0089e4;
+}
+.main-section .MainNavLinksHolder{
+    position: absolute;
+    left: 40%;
+    top: 14%;
+}
+.MainNavLinksHolder #Active_link{
+    color: #0089e4;
+}
+.container{
+    position: absolute;
+    top: 17.3%;
+    left: 8%;
+    width: 85%;
+    height: 700%;
+    background-color: #f2f2f2;
+}
+.container .MainHeader{
+    font-size: 48px;
+    letter-spacing: 2px;
+    font-family: open sans;
+    font-weight: 400;
+    color: #0089e4;
+    scale: 1;
+}
+.container .FirstParagraph{
+    font-size: 22px;
+    position: inherit;
+    line-height: 42px;
+    top: 2%;
+    scale: -1.5px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.container .right{
+    width: auto;
+    height: 50%;
+    left: 68%;
+    top: 6.7%;
+    position: absolute;
+}
+.right .top{
+    text-align: center;
+    position: absolute;
+    left: -3.1%;
+    top: 75%;
+    padding-bottom: 40px;
+}
+.top h2{
+    margin-top: 20px;
+    font-weight: 500;
+    scale: 1;
+    color: #3F444B;
+}
+.top p{
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #3F444B;
+}
+.top button{
+    width: 170px;
+    height: 45px;
+    font-size: 20px;
+    background-color: #0089e4;
+    border-radius: 5px;
+    border: 0;
+}
+.top img{
+    width: 370px;
+    scale: 1.01;
+    margin-top: -1px;
+}
+.right .center{
+    width: 370px;
+    position: absolute;
+    left: -3.1%;
+    top: 8%;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-family: sans-serif;
+    color: #8375ff;
+    padding-bottom: 40px;
+
+}
+.right .bottom{
+    text-align: center;
+    position: absolute;
+    left: -3.1%;
+    width: 372px;
+    padding-bottom: 40px;
+}
+.bottom h2{
+    color: #3F444B;
+    padding: 20px;
+}
+.bottom button{
+    width: 170px;
+    height: 45px;
+    font-size: 20px;
+    background-color: #0089e4;
+    border-radius: 5px;
+    border: 0;
+}
+.container .CenterMidWideImage{
+    width: 69%;
+    position: inherit;
+    top: 6.7%;
+    left: -0.2%;
+}
+.CenterMidWideImage img{
+    width: 90%;
+    height: 20%;
+    border-radius: 5px;
+}
+.CenterMidWideImage .element-divider span{
+    color: black;
+}
+.element-divider{
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.top-wide{
+    position: absolute;
+    left: 0;
+    top: 21%;
+}
+.container .Quotes1{
+    position: absolute;
+    top: 16.6%;
+    border-radius: 5px;
+}
+.container .SecondParagraph{
+    line-height: 40px;
+    position: absolute;
+    top: 23.5%;
+    font-size: 19.8px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font: bold;
+    color: #000;
+    letter-spacing: 0.5px;
+}
+.container .SecondMainTitle{
+    position: absolute;
+    top: 32.9%;
+    color: #0089e4;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+.container .ThirdParagraph{
+    position: absolute;
+    top: 34.5%;
+    font-size: 19.8px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.container .ThirdMainTitle{
+    position: absolute;
+    top: 38.7%;
+    color: #0089e4;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+.container .FourthParagraph{
+    position: absolute;
+    top: 40.3%;
+    font-size: 19.7px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.Sponsorship{
+    display: block;
+    font-size: 19.7px;
+    letter-spacing: 1px;
+    line-height: 55px;
+    color: #8375ff;
+    font-weight: bold;
+}
+.Sponsorship:hover{
+    color: #000038;
+}
+.container .SponsorshipHolder{
+    position: absolute;
+    top: 43.7%;
+}
+.container .FourthMainTitle{
+    position: absolute;
+    top: 57.6%;
+    color: #0089e4;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+.container .FifthParagraph{
+    position: absolute;
+    top: 59.2%;
+    font-size: 19.7px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.container .ImmigrationComplianceHolder{
+    position: absolute;
+    top: 61.9%;
+}
+.ImmigrationComplianceHolder .ImmigrationCompliance{
+    display: block;
+    font-size: 19.7px;
+    letter-spacing: 1px;
+    line-height: 55px;
+    color: #8375ff;
+    font-weight: bold;
+}
+.ImmigrationCompliance:hover{
+    color: #000038;
+}
+.container .FifthMainTitle{
+    position: absolute;
+    top: 68.3%;
+    color: #0089e4;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+.container .SixthParagraph{
+    position: absolute;
+    top: 69.9%;
+    font-size: 19.7px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+.container .BusinessVisasHolder{
+    position: absolute;
+    top: 71.9%;
+}
+.BusinessVisasHolder .BusinessVisas{
+    display: block;
+    font-size: 19.7px;
+    letter-spacing: 1px;
+    line-height: 55px;
+    color: #8375ff;
+    font-weight: bold;
+}
+.BusinessVisas:hover{
+    color: #000038;
+}
+.container .SixthMainTitle{
+    position: absolute;
+    top: 92.8%;
+    color: #0089e4;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+.TrendingServicesHolder{
+    position: absolute;
+    top: 94.8%;
+}
+.TrendingServicesHolder .TrendingServices{
+    display: block;
+    font-size: 19.7px;
+    letter-spacing: 1px;
+    line-height: 55px;
+    color: #8375ff;
+    font-weight: bold;
+}
+.TrendingServices:hover{
+    color: #000038;
+}
+.GreyField{
+    position: absolute;
+    width: 99.8%;
+    height: 68%;
+    left: 0;
+    top: 738%;
+    background-color: #E1E1E1;
+}
+.GreyField .GreyFieldLogo{
+    position: absolute;
+    left: 2%;
+    top: 30%;
+    width: 80px;
+}
+.GreyField .GreyFieldCompanyName{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    color: #0089e4;
+    font-size: 25px;
+}
+.GreyField .GreyFieldCopyright{
+    position: absolute;
+    top: 49%;
+    color: #0089e4;
+    letter-spacing: 2px;
+}
+.GreyField .MainGreyFieldImage{
+    position: absolute;
+    right: 0%;
+    height: 100%;
+}
+.footer{
+    position: absolute;
+    width: 99.8%;
+    height: 265%;
+    left: 0;
+    top: 806%;
+    background-color: #BEBEBE;
+}
+.footer .main{
+    position: absolute;
+    left: 7%;
+    width: 87%;
+    height: 100%;
+}
+.main .FooterLogo{
+    position: absolute;
+    top: 6%;
+    font-size: 25px;
+    color: #0089e4;
+}
+.main .SocilaLinks{
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+    top: 12%;
+    margin-left: 5px;
+}
+.SocilaLinks .TwitweLink{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #2b2a2a;
+}
+.SocilaLinks .LinkedinLink{
+    width: 32px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #2b2a2a;
+}
+.LinkedinLink i{
+    filter: invert(100%);
+}
+.SocilaLinks .FacebookLink{
+    width: 32px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #2b2a2a;
+}
+.FacebookLink i{
+    font-size: 28px;
+    filter: invert(100%);
+}
+.main .main-divider{
+    position: absolute;
+    top: 150%;
+}
+.FirstSection{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: left;
+    top: 450%;
+}
+.FirstSection .FirstSectionTitle{
+    color: #0089e4;
+}
+.FirstSection .FirstSectionLinks{
+    display: block;
+}
+.FirstSectionLinks:hover{
+    color: #0089e4;
+}
+.SecondSection{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    font-size: 17px;
+    text-align: left;
+    font-family: sans-serif;
+    top: 450%;
+    left: 190%;
+}
+.SecondSection .SecondSectionTitle{
+    color: #0089e4;
+}
+.SecondSection .SecondSectionLinks{
+    line-height: 40px;
+    display: block;
+}
+.SecondSectionLinks:nth-of-type(1){
+    color: #0089e4;
+}
+.SecondSectionLinks:hover{
+    color: #2c15fa;
+}
+
+.ThirdSection{
+    position: absolute;
+    width: 220px;
+    height: auto;
+    font-size: 17px;
+    text-align: left;
+    font-family: sans-serif;
+    top: 450%;
+    left: 370%;
+}
+.ThirdSection .ThirdSectionTitle{
+    color: #0089e4;
+}
+.ThirdSection .ThirdSectionLinks{
+    line-height: 40px;
+    display: block;
+}
+.ThirdSectionLinks:hover{
+    color: #2c15fa;
+}
+.FourthSection{
+    position: absolute;
+    width: 220px;
+    height: auto;
+    font-size: 17px;
+    text-align: left;
+    font-family: sans-serif;
+    top: 450%;
+    left: 570%;
+}
+.FourthSection .FourthSectionTitle{
+    color: #0089e4;
+}
+.FourthSection .FourthSectionLinks{
+    line-height: 40px;
+    display: block;
+}
+.FourthSectionLinks:hover{
+    color: #2c15fa;
+}
+.FifthSection{
+    position: absolute;
+    width: 220px;
+    height: auto;
+    font-size: 17px;
+    text-align: left;
+    font-family: sans-serif;
+    top: 450%;
+    left: 760%;
+}
+.FifthSection .FifthSectionTitle{
+    color: #0089e4;
+}
+.FifthSection .FifthSectionLinks{
+    line-height: 40px;
+    display: block;
+}
+.FifthSectionLinks:hover{
+    color: #2c15fa;
+}
+.TrendingServicesHolderMain{
+    position: absolute;
+    top: 1350%;
+    width: 300px;
+    color: #0089e4;
+    font-size: 22px;
+}
+.SixthSection{
+    position: absolute;
+    top: 1550%;
+    left: 0;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 250px;
+    letter-spacing: 0.01px;
+}
+
+.SixthSection .SixthSectionLinks{
+    display: block;
+}
+.SixthSectionLinks:hover{
+    color: #2c15fa;
+}
+.SeventhSection{
+    position: absolute;
+    top: 1550%;
+    left: 208%;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 250px;
+    letter-spacing: 0.01px;
+}
+.SeventhSection .SeventhSectionLinks{
+    display: block;
+}
+.SeventhSectionLinks:hover{
+    color: #2c15fa;
+}
+.EighthSection{
+    position: absolute;
+    top: 1550%;
+    left: 410%;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 250px;
+    letter-spacing: 0.01px;
+}
+.EighthSection .EighthSectionLinks{
+    display: block;
+}
+.EighthSectionLinks:hover{
+    color: #2c15fa;
+}
+.NinethSections{
+    position: absolute;
+    top: 1550%;
+    left: 590%;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 250px;
+    letter-spacing: 0.01px;
+}
+.NinethSections .NinethSectionLinks{
+    display: block;
+}
+.NinethSectionLinks:hover{
+    color: #2c15fa;
+}
+.TenthSection{
+    position: absolute;
+    top: 1550%;
+    left: 770%;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 250px;
+    letter-spacing: 0.01px;
+}
+.TenthSection .TenthSectionLinks{
+    display: block;
+}
+.TenthSectionLinks:hover{
+    color: #2c15fa;
+}
+.BottomSection{
+    position: absolute;
+    top: 1071%;
+    width: 99.8%;
+    height: 50%;
+    left: 0;
+    background-color: #000;
+}
+.BottomSection .BottomMain{
+    width: 99.8%;
+    height: 82%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #333333;
+    
+}
+.BottomMain .BottomSectionRedirectImage{
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    width: 280px;
+}
+.BottomMain p{
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #E1E1E1;
+}
+.BottomMain .BottomSectionTextHolder{
+    position: absolute;
+    left: 30%;
+    top: 22%;
+}

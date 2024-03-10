@@ -1,0 +1,21 @@
+@media screen and (max-width: 400px) {
+    .landing_text{
+        left: 5%;
+        top: 11%;
+    }
+    .landingbg{
+        width: 390px;
+
+    }
+    .landingbg:nth-of-type(2){
+        left: 1.9%;
+        display: none;
+    }
+    .landingbg:nth-of-type(3){
+        top: 19%;
+        left: 1.9%;
+        width: auto;
+        height: 150px;
+    }
+
+}

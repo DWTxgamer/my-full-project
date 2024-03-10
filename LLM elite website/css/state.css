@@ -1,0 +1,117 @@
+.main_info_3 .main_info_3_state_1{
+    line-height: 25px;
+    position: absolute;
+    left: 3%;
+}
+.main_info_3 .main_info_3_state_2{
+    line-height: 25px;
+    position: absolute;
+    left: 3%;
+    top: 9%;
+}
+.main_info_3 .main_info_3_state_3{
+    position: absolute;
+    line-height: 25px;
+    top: 32%;
+    left: 3%;
+}
+.main_info_3_state_3 .state_3_1{
+    display: block;
+    color: #0077ff;
+    width: 200px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+}
+.main_info_3_state_3 .state_3_2{
+    display: block;
+    color: #0077ff;
+    width: 200px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+}
+.main_info_3_state_3 .state_3_3{
+    display: block;
+    color: #0077ff;
+    width: 155px;
+    padding: 12px;
+    border-radius: 10px;
+}
+.main_info_3_state_3 .state_3_4{
+    display: block;
+    color: #0077ff;
+    width: 240px;
+    padding: 12px;
+    border-radius: 10px;
+}
+.main_5_p .state_3_5{
+    display: block;
+    color: #0077ff;
+    width: 300px;
+    padding: 12px;
+    border-radius: 10px;
+}
+.main_5_p .state_3_6{
+    display: block;
+    color: #0077ff;
+    width: 310px;
+    padding: 12px;
+    border-radius: 10px;
+}
+.main_5_p .state_3_7{
+    display: block;
+    color: #0077ff;
+    width: 210px;
+    padding: 12px;
+    border-radius: 10px;
+}
+.main_5_p .state_3_8{
+    display: block;
+    color: #0077ff;
+    width: 190px;
+    padding: 12px;
+    border-radius: 10px;
+}
+.main_3_p .vision{
+    color: #0077ff;
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.main_3_p .mission{
+    color: #0077ff;
+    display: inline-block;
+    width: 110px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.main_6_p .state_3_11{
+    display: block;
+    color: #0077ff;
+    width: 290px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+}
+.main_7_p .state_3_12{
+    display: block;
+    color: #0077ff;
+    width: 240px;
+    height: 25px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.main_8_p .state_3_13{
+    display: block;
+    color: #0077ff;
+    width: 290px;
+    height: 25px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
