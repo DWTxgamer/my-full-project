@@ -1,0 +1,18 @@
+#heder1{
+    text-align: center;
+    color: white;
+    top: 40%;
+}
+#navbar{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    position: absolute;
+    left: 30%;
+    margin-left: 10px;
+}   
+body{
+    position: relative;
+    background: linear-gradient(red,orange,yellow );
+    background-repeat: no-repeat;
+} 

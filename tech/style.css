@@ -1,0 +1,50 @@
+body{
+    position: relative;
+    background-color: black;
+}
+.header1{
+    color: white;
+    
+}
+
+.nav-bar{
+    top: 2%;
+    left: 70%;
+    position: absolute;
+    font-size: 20px;
+    opacity: 1;
+    background:linear-gradient(cyan,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nav-bar:hover{
+    top: 2%;
+    left: 70%;
+    position: absolute;
+    font-size: 20px;
+    opacity: 1;
+   
+    animation:hover 5s ease-in 0.5s ;
+}
+@keyframes hover {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        background:linear-gradient(cyan,blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    color: white;
+}
+img{
+    width: 800px;
+    height: 600px;
+}
