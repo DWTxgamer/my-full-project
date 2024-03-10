@@ -1,0 +1,39 @@
+*{
+    outline: none;
+    font-family: ink free;
+}
+.container{
+    background-image: linear-gradient(to bottom right,black, blue);
+    width: 500px;
+    height: auto;
+    position: absolute;
+    left: 32%;
+    border-radius: 20px;
+    border-style: solid;
+    box-shadow: black 100px;
+    
+}
+body{
+    position: fixed;
+    position: relative;
+    background-color: rgb(1, 1, 46);
+   
+}
+.info,.title{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    color: aquamarine;
+}
+.title{
+    color: white;
+}
+.body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    background-color: aliceblue;
+}

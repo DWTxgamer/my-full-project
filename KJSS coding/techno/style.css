@@ -1,0 +1,7 @@
+.body{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(top left to bottom right,black,blue );
+    position: absolute;
+    left: 50%;
+}
