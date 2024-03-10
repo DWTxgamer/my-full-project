@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Website to Application Converter</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      text-align: center;
+    }
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f7f7f7;
+    }
+    .form-group {
+      margin-bottom: 10px;
+    }
+    .form-group label {
+      display: block;
+      font-weight: bold;
+    }
+    .form-group input {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    .btn-submit {
+      width: 100%;
+      padding: 8px;
+      border: none;
+      border-radius: 10px;
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Website to Application Converter</h1>
+
+  <div class="container">
+    <div class="form-group">
+      <label for="zipFile">Select ZIP File:</label>
+      <input type="file" id="zipFile" accept=".zip">
+    </div>
+    <div class="form-group">
+      <label for="outputDir">Output Directory:</label>
+      <input type="text" id="outputDir">
+    </div>
+    <button class="btn-submit" onclick="convertToApp()">Convert to App</button>
+  </div>
+
+  <script>
+    function convertToApp() {
+      var zipFile = document.getElementById("zipFile").files[0];
+      var outputDir = document.getElementById("outputDir").value;
+
+      // Perform the conversion logic here
+      // You can use JavaScript and/or make API requests to a server-side script
+
+      // Example: Display a message with the selected file and output directory
+      alert("ZIP File: " + zipFile.name + "\nOutput Directory: " + outputDir);
+    }
+  </script>
+</body>
+</html>

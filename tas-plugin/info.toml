@@ -1,0 +1,18 @@
+# Plugin metadata
+[info]
+name = "TASToolPlugin"
+version = "1.0.0"
+author = "DWTxgamer_123"
+description = "A Tool-Assisted Speedrun (TAS) tool plugin for Trackmania."
+
+# Required dependencies (if any)
+[dependencies]
+
+# Plugin options (if any)
+[options]
+
+# Required events
+[events]
+
+# Optional settings
+[settings]
