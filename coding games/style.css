@@ -1,0 +1,32 @@
+Body{
+    background-color: white;
+    position: relative;
+}
+h2{
+    position: absolute;
+    left: 50%;
+    animation:jumping  infinite ease-in-out 1s  ;
+}
+
+@keyframes jumping {
+   0%{
+    transform: translateZ(-700px);
+    opacity: 1;
+    color: white;
+    font-size: 40px;
+   } 
+   50%{
+    transform: translateY(+500px);
+    opacity: 1;
+    color: black;
+    font-size: 5px;
+   }
+   100%{
+    transform: translateX(0);
+    opacity: 0;
+    background: linear-gradient(cyan,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+   }
+}

@@ -1,0 +1,143 @@
+ 
+
+page2 
+ <div id="menu-nav">
+        <div id="navigation-bar">
+          <ul>
+            <li><a href="SECURITY.HTML"><i class="fa fa-home"></i><span>Home</span></a></li>
+            <li><a href="page3.html"><i class="fa fa-user"></i><span>Cross-site scripting</span></a></li>
+            <li><a href="page4.html"><i class="fa fa-book"></i><span>Phishing</span></a></li>
+            <li><a href="page5.html"><i class="fa fa-rss"></i> <span>Malware</span></a></li>
+            <li><a href="page6.html"><i class="fa fa-handshake"></i><span>Zero-day exploits</span></a></li>
+          </ul>
+        </div>
+        
+        </div>
+page3
+ <div id="navigation-bar">
+        <ul>
+          <li><a href="SECURITY.HTML"><i class="fa fa-home"></i><span>Home</span></a></li>
+          <li><a href="page4.html"><i class="fa fa-book"></i><span>Phishing</span></a></li>
+          <li><a href="page5.html"><i class="fa fa-rss"></i> <span>Malware</span></a></li>
+          <li><a href="page6.html"><i class="fa fa-handshake"></i><span>Zero-day exploits</span></a></li>
+          <li><a href="page7.html"><i class="fa fa-user"></i><span>Man-in-the-middle</span></a></li>
+        </ul>
+      </div>
+      
+      </div>
+page4
+ <div id="menu-nav">
+        <div id="navigation-bar">
+          <ul>
+            <li><a href="SECURITY.HTML"><i class="fa fa-home"></i><span>Home</span></a></li>
+            <li><a href="page5.html"><i class="fa fa-rss"></i> <span>Malware</span></a></li>
+            <li><a href="page5.html"><i class="fa fa-rss"></i> <span>Zero-day exploits</span></a></li>
+            <li><a href="page3.html"><i class="fa fa-user"></i><span>Cross-site scripting</span></a></li>
+            <li><a href="page4.html"><i class="fa fa-book"></i><span>Phishing</span></a></li>
+            
+          </ul>
+        </div>
+        
+        </div>
+page5
+<div id="menu-nav">
+        <div id="navigation-bar">
+          <ul>
+            <li><a href="SECURITY.HTML"><i class="fa fa-home"></i><span>Home</span></a></li>
+            <li><a href="page6.html"><i class="fa fa-rss"></i> <span>Zero-day exploits</span></a></li>
+            <li><a href="page7.html"><i class="fa fa-user"></i><span>Man-in-the-middle</span></a></li>
+            <li><a href="page2.html"><i class="fa fa-book"></i><span>Hacking</span></a></li>
+            <li><a href="page3.html"><i class="fa fa-rss"></i> <span></span>Cross-site scripting</a></li>
+          </ul>
+        </div>
+page6
+<div id="menu-nav">
+        <div id="navigation-bar">
+          <ul>
+            <li><a href="SECURITY.HTML"><i class="fa fa-home"></i><span>Home</span></a></li>
+            <li><a href="page2.html"><i class="fa fa-handshake"></i><span>Hacking</span></a></li>
+            <li><a href="page3.html"><i class="fa fa-user"></i><span>Cross-site scripting</span></a></li>
+            <li><a href="page4.html"><i class="fa fa-book"></i><span>Phishing</span></a></li>
+            <li><a href="page5.html"><i class="fa fa-rss"></i> <span>Zero-day exploits</span></a></li>
+          </ul>
+        </div>
+page7
+ <div id="menu-nav">
+        <div id="navigation-bar">
+          <ul>
+            <li><a href="SECURITY.HTML"><i class="fa fa-home"></i><span>Home</span></a></li>
+            <li><a href="page7.html"><i class="fa fa-handshake"></i><span>Man-in-the-middle</span></a></li>
+            <li><a href="page2.html"><i class="fa fa-user"></i><span>Hacking</span></a></li>
+            <li><a href="page3.html"><i class="fa fa-book"></i><span>Cross-site scripting</span></a></li>
+            <li><a href="page4.html"><i class="fa fa-rss"></i> <span>Phishing</span></a></li>
+          </ul>
+        </div>
+
+
+css
+   
+  #menu-nav {
+    max-width: 1000px;
+    margin: 130px auto;
+    background-color: blue;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+   
+  #navigation-bar ul {
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  #navigation-bar li {
+    float: left;
+    width: 20%;
+  }
+  #navigation-bar li:hover a::before {
+    right: 0;
+    left: 0;
+  }
+  #navigation-bar a {
+    color: grey;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 0;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease;
+  }
+  #navigation-bar a:hover {
+    color: red;
+  }
+  #navigation-bar a::before {
+    content: "";
+    transition: all 0.4s ease-in-out;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    bottom: 0;
+    height: 2px;
+    background-color: red;
+  }
+  #navigation-bar a:hover::before {
+    right: 0;
+    left: 0;
+  }
+   
+  li {
+      list-style: none;
+  }
+<link rel="stylesheet" href="css/page2.css">
+security
+<div id="menu-nav">
+        <div id="navigation-bar">
+          <ul>
+            <li><a href="SECURITY.HTML"><i class="fa fa-home"></i><span>Home</span></a></li>
+            <li><a href="page2.html"><i class="fa fa-handshake"></i><span>Hacking</span></a></li>
+            <li><a href="page3.html"><i class="fa fa-user"></i><span>Cross-site scripting</span></a></li>
+            <li><a href="page4.html"><i class="fa fa-book"></i><span>Phishing</span></a></li>
+            <li><a href="page5.html"><i class="fa fa-rss"></i> <span>Malware</span></a></li>
+          </ul>
+        </div>
+        
+        </div>

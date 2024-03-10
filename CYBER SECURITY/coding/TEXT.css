@@ -1,0 +1,9 @@
+BODY{
+   background-color:  aqua;
+}
+nav a{
+   float: right;
+   margin: 20px;
+   text-decoration:none ;
+   color:black;
+}

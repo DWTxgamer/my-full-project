@@ -1,0 +1,41 @@
+body{
+	font: italic;
+	background-color:green;
+}
+h2{
+	color: white
+
+}
+h1{
+	color: yellow
+}
+ul{
+align-content: center;
+	text-decoration: blue;
+	
+	color: white
+	
+
+}
+input{
+	
+	background-color:red
+}
+button{
+	background-color: yellow
+
+}
+nav{
+	float :right;
+	text-decoration :none;
+	font-size : 20px
+	margin-left: 20px 
+	
+
+}
+iframe{
+	width: 1300px;
+	size: 1300px;
+	
+}
+
