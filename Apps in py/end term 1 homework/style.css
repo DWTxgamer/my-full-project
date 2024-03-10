@@ -1,0 +1,381 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    position: absolute;
+    animation: transition1 5s ease-in 0s ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@keyframes transition11{
+    0%{
+       opacity: 0;
+    }
+    100%{
+       opacity: 1;
+    }
+}
+
+
+.support{
+    width: 1330px;
+    height: 580px;
+    position: absolute;
+    background-color: #f8f8f8;
+    top: 2780%;
+}
+.support p{
+    font-size: 20px;
+}
+.support h5{
+    font-size: 18px;
+}
+.support h2{
+    font-size: 20px;
+}
+.logo{
+   
+    margin-left: 12px;
+    margin-top: 10px;
+    
+}
+.display1{
+     position: absolute;
+     
+    
+}
+#name1,#phone2{
+    left: 30%;
+   top: 420%; 
+}
+
+#phone1,#name2{
+    left: 510%;
+}
+
+.nav-menu{
+    font-size: 20px;
+    top: 40%;
+     left: 100%;
+     margin-left:10% ;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+   
+}
+a{
+    text-decoration: none;
+   
+}
+nav a{
+    padding-right: 10px;
+    color: black;
+   
+}
+
+.display1{
+    opacity: 1;
+    transform: translateZ(-400px);
+    animation: display1 4s ease-in-out ;
+}
+
+@keyframes display11 {
+    10%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.bio{
+    animation: display1 4s ease-in-out ;
+    position: absolute;
+    top: 700%;
+    width: 970px;
+    height: 144px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bio h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+}
+.tecno{
+    top: 20%;
+    left: 900%;
+    color: black;
+    animation: display1 4s ease-in-out ;
+    position: absolute;
+    background-color: #f8f8f8;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+
+}
+.display2{
+    opacity: 0;
+    position: absolute;
+    animation: display2 3s ease-in-out 1s   ;
+}
+@keyframes display22{
+    10%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+#phone2{
+    top: 100%;
+    left: 10%;
+}
+#name2{
+ top: 200%;
+}
+.types{
+    animation: display 4s ease-in-out ;
+    position: absolute;
+}
+
+#type1{
+    top: 900%;
+    animation: display1 4s ease-in-out ;
+}
+#type2{
+    top: 900%;
+    left: 350%;
+    animation: display1 4s ease-in-out ;
+}
+#type3{
+    top: 900%;
+    left: 700%;
+    animation: display1 4s ease-in-out ;
+}
+
+
+.pc{
+    position: absolute;
+    top: 1670%;
+    animation: display1 4s ease-in-out ;
+}
+#pc2{
+    left: 350%;
+}
+#pc3{
+    left: 700%;
+}
+
+.ac{
+    position: absolute;
+    top: 2250%;
+    animation: display1 4s ease-in-out ;
+}
+#ac2{
+    left: 350%;
+    animation: display1 4s ease-in-out ;
+}
+#ac3{
+    left: 700% ;
+    animation: display1 4s ease-in-out ;
+}
+.af{
+    padding-left: 500px;
+}
+.more{
+    position: absolute;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: black;
+}
+#more1{
+    left: 0%;
+    top: 901%;
+    width: 410px;
+    height: 408px;
+    opacity: 0;  
+    color: black;
+    font-size: 20px;
+}
+#more1:hover{
+    left: 0%;
+    top: 901%;
+    width: 410px;
+    height: 408px;
+    opacity: 0;  
+    color: black;
+    animation: more 10s ease-in infinite ;
+}
+#more2{
+    top: 901%;
+    width: 410px;
+    height: 408px;
+    left: 350%;
+    opacity: 0;
+    font-size: 20px;
+    color: black;
+    
+}
+#more2:hover{
+    top: 901%;
+    width: 410px;
+    height: 408px;
+    left: 350%;
+    opacity: 0;
+    color: black;
+    animation: more 10s ease-in infinite ;
+}
+#more3{
+    top: 900%;
+    width: 410px;
+    height: 408px;
+    left: 700%;
+    opacity: 0;
+    font-size: 20px;
+    color: black;
+    
+}
+#more3:hover{
+    top: 900%;
+    width: 410px;
+    height: 408px;
+    left: 700%;
+    opacity: 0;
+    color: black;
+    animation: more 10s ease-in infinite ;
+}
+#more4{
+    left: 0%;
+    top: 1671%;
+    width: 390px;
+    height: 362px;
+    opacity: 0;  
+    color: black;
+    font-size: 20px;
+}
+#more4:hover{
+    left: 0%;
+    top: 1671%;
+    width: 390px;
+    height: 362px;
+    opacity: 0;  
+    color: black;
+    animation: more 10s ease-in infinite ;
+}
+#more5{
+    top: 1671%;
+    width: 390px;
+    height: 358px;
+    left: 350%;
+    opacity: 0;
+    color: black;
+    font-size: 20px;
+    
+}
+#more5:hover{
+    top: 1671%;
+    width: 390px;
+    height: 358px;
+    left: 350%;
+    opacity: 0;
+    color: black;
+    animation: more 10s ease-in infinite ;
+}
+#more6{
+    top: 1671%;
+    width: 392px;
+    height: 326px;
+    left: 700%;
+    opacity: 0;
+    color: black ;
+    font-size: 20px;
+}
+#more6:hover{
+    top: 1671%;
+    width: 392px;
+    height: 326px;
+    left: 700%;
+    opacity: 0;
+    animation: more 10s ease-in infinite ;
+}
+#more7{
+    left: 0%;
+    top: 2251%;
+    width: 396px;
+    height: 364px;
+    opacity: 0;  
+    color: black;
+    font-size: 20px;
+    
+    
+}
+#more7:hover{
+    left: 0%;
+    top: 2251%;
+    width: 396px;
+    height: 364px;
+    opacity: 0;  
+    animation: more 10s ease-in infinite ;
+}
+#more8{
+    top: 2251%;
+    width: 390px;
+    height: 364px;
+    left: 350%;
+    opacity: 0;
+    font-size: 20px;
+    color: black;
+}
+#more8:hover{
+    top: 2251%;
+    width: 390px;
+    height: 364px;
+    left: 350%;
+    opacity: 0;
+    font-size: 20px;
+    color: black;
+    animation: more 10s ease-in infinite ;
+}
+#more9{
+    top: 2251%;
+    width: 390px;
+    height: 364px;
+    left: 700%;
+    opacity: 0;
+    color: black ;
+    font-size: 20px;
+}
+#more9:hover{
+    top: 2251%;
+    width: 390px;
+    height: 364px;
+    left: 700%;
+    opacity: 0;
+    animation: more 10s ease-in infinite ;
+}
+@keyframes more {
+    10%{
+        transform: translateZ(-200px);
+        opacity: 1;
+        background-color: #f8f8f8;
+        font-size: 20px;
+        color: black;
+    }
+    100%{
+        transform: translateZ(200px);
+        opacity: 1;
+        background-color: #f8f8f8;
+        font-size: 20px;
+        color: black;
+    }
+}
+p:hover{
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+
+}
