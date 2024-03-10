@@ -1,0 +1,12 @@
+.footer{
+    width: 98vw;
+    height: 250px;
+    background-color: blue;
+    position: relative;
+    bottom: 0;
+    margin-top: 70vh;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    
+}

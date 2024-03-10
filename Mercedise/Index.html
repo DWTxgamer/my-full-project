@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedies</title>
+</head>
+<style>
+    .header{
+        width: auto;
+        height: 140px;
+        border-radius: 10px;
+        background-image: linear-gradient( rgb(7, 153, 250),cyan);
+        font-size: 18px;
+    }
+    .header h1{
+        text-align: center;
+        text-decoration: underline;
+    }
+    img{
+        width: 664px;
+        height: 450px;
+        position: absolute;
+        margin-top: 5px;
+    }
+    .type-1 img{
+       border-radius: 10px; 
+    }
+    .type-2 img{
+       border-radius: 10px;
+       left: 50.5%; 
+    }
+    .type-3 img{
+       border-radius: 10px;
+       top: 93.5%; 
+    }
+    .type-4 img{
+       border-radius: 10px; 
+       top: 93.5%;
+       left: 50.5%;
+    }
+    .type-5 img{
+       border-radius: 10px; 
+       top: 162.5%;
+    }
+    .type-6 img{
+       border-radius: 10px; 
+       top: 162.5%;
+       left: 50.5%;
+    }
+    .overlays div{
+        width: 664px;
+        height: 450px;
+        position: absolute;
+        margin-top: 5px;
+        background-image: linear-gradient( rgb(7, 153, 250),cyan);
+        border-radius: 10px;
+    }
+    .over-1{
+        border-radius: 10px; 
+        opacity: 0;
+    }
+    .over-2{
+       border-radius: 10px;
+       left: 50.5%; 
+       opacity: 0;
+    }
+    .over-3{
+       border-radius: 10px;
+       top: 93.5%;
+       opacity: 0;
+    }
+    .over-4{
+       border-radius: 10px; 
+       top: 93.5%;
+       left: 50.5%;
+       opacity: 0;
+    }
+    .over-5{
+       border-radius: 10px; 
+       top: 162.5%;
+       opacity: 0;
+    }
+    .over-6{
+        border-radius: 10px; 
+       top: 162.5%;
+       left: 50.5%;
+       opacity: 0;
+    }
+    img:hover{
+        opacity: 0;
+    }
+    .overlays div:hover{
+         
+          animation: overlay 10.5s 0.3s 4;
+    }
+    @keyframes overlay {
+        10%{
+            opacity: 1;
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+        }
+    }
+   .overlays div h2{
+    position: absolute;
+    left: 20%;
+    top: 25%;
+   }
+   .overlays div p{
+    position: absolute;
+    left: 20%;
+    top: 45%;
+    font-size: large;
+   }
+   button{
+    position: absolute;
+    top: 230%;
+    left: 35%;
+    width: 200px;
+    height: 60px;
+    background-color: yellow;
+   }
+   a{
+    text-decoration: none;
+   }
+</style>
+<body>
+    <div class="header">
+        <h1>Mercedies</h1>
+        <p>The German luxury-car legend is known for high-dollar, high-tech premium sedans, SUVs, 
+            coupes, wagons, and convertibles. At one end of spectrum is the CLA-class, which is a 
+            great subcompact sedan. Joining the CLA-class as one of our favorite compact sedans is 
+            the C-class. The E-class is terrific, with its effortless performance and peerless 
+            luxury for the price. The GLS is a great full-size SUV and a great value, but the 
+            flagship S-class sedan delivers the sybaritic luxury for which
+             the brand is best known.</p>
+    </div>
+    <div class="container">
+        <div class="type-1">
+            <img src="car1.avif" alt="">
+        </div>
+        <div class="type-2">
+            <img src="car2.avif" alt="">
+        </div>
+        <div class="type-3">
+            <img src="car3.avif" alt="">
+        </div>
+        <div class="type-4">
+            <img src="car4.avif" alt="">
+        </div>
+        <div class="type-5">
+            <img src="car5.avif" alt="">
+        </div>
+        <div class="type-6">
+            <img src="car6.avif" alt="">
+        </div>
+    </div>
+    <div class="overlays">
+        <div class="over-1">
+           <h2>VISION
+            EQXX:
+            The
+            new
+            benchmark
+            of
+            efficiency.</h2>
+            <p>The Mercedes-Benz Vision EQXX is a battery electric vehicle concept
+                 car that was unveiled at the 2022 Consumer Electronics Show. It 
+                 is a proof of concept with a primary goal of below 10 kWh per 100
+                  km (or greater than 10 km per kWh) in real-life conditions</p>
+        </div>
+        <div class="over-2">
+            <h2>Inspired by the future:The VISION AVTR.</h2>
+            <p>The Mercedes-Benz Vision AVTR is a futuristic concept car inspired
+                 by the movie 'Avatar'. It features a 110 kilowatt-hour electric
+                  motor that can produce 469 horsepower and a range of roughly 435 miles.</p>
+        </div>
+        <div class="over-3">
+             <h2>Anicon reenvisioned–thenew Vision One-Eleven.</h2>
+            <p>Mercedes-Benz has unveiled the Vision One-Eleven, a 
+                concept sports car that pays homage to the C-111 experimental cars of the 1970s.</p></div>
+        <div class="over-4">
+            <h2>Project MAYBACH</h2>
+            <p>Mercedes-Benz unveiled Project MAYBACH, an electric concept car designed in collaboration
+                 with Virgil Abloh, during Miami Art Week at the Rubell Museum.</p>
+        </div>
+        <div class="over-5">
+            <h2>THE SPECS OF THIS CAR ARE NOT AVAILABLE</h2>
+        </div>
+        <div class="over-6">
+            <h2>THE SPECS OF THIS CAR ARE NOT AVAILABLE</h2>
+        </div>
+    </div>
+    <div class="links">
+        <a href="https://www.youtube.com/results?search_query=mercedes+benz">
+        <button>More on mercedies</button>
+    </div>
+</a>
+</body>
+</html>

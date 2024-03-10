@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.game-container {
+    text-align: center;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 4px;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+.board div{
+    margin-right: 5px;
+}
+
+.cell {
+    width: 110px;
+    height: 110px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 450px;
+    margin-right: 5px;
+    background-color: #fff;
+}
+
+
+.scoreboard{
+    width: 98vw;
+    height: 55px;
+    font-size: large;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.scoreboard #blue-score{
+    background-color: blue;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 200px;
+    height: 55px;
+    margin-left: 50px;
+    margin-right: 5px;
+    font-size: 20px;
+    
+}
+.scoreboard #red-score{
+    background-color: red;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 200px;
+    height: 55px;
+    font-size: 20px;
+    
+}
+
+.scoreboard button{
+    background-color: #ccc;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.cell.selected-x {
+    background-color: blue; /* Blue color for X */
+    color: white;
+}
+
+.cell.selected-o {
+    background-color: red; /* Red color for O */
+    color: white;
+}

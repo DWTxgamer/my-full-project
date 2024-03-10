@@ -1,0 +1,11 @@
+@keyframes image-slider {
+    10%{
+        transform: scale(10px);
+    }
+    50%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(100px);
+    }
+}
